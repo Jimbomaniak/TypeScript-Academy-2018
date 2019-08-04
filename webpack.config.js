@@ -17,7 +17,7 @@ module.exports = {
         modules: [path.resolve('./src'), 'node_modules']
     },
     module: {
-        loaders: [
+        rules: [
             { test: /\.tsx?$/, loader: 'ts-loader' },
             { test: /\.html$/, loader: "html" },
         ]
